@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		98DBC9D11E5E815C002090B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DBC9D01E5E815C002090B1 /* main.m */; };
 		98DBC9D41E5E815C002090B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DBC9D31E5E815C002090B1 /* AppDelegate.m */; };
-		98DBC9D71E5E815C002090B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DBC9D61E5E815C002090B1 /* ViewController.m */; };
 		98DBC9DA1E5E815C002090B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98DBC9D81E5E815C002090B1 /* Main.storyboard */; };
 		98DBC9DC1E5E815C002090B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98DBC9DB1E5E815C002090B1 /* Assets.xcassets */; };
 		98DBC9DF1E5E815C002090B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98DBC9DD1E5E815C002090B1 /* LaunchScreen.storyboard */; };
+		98DBC9E81E5E81A7002090B1 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DBC9E71E5E81A7002090B1 /* WebViewController.m */; };
+		98DBC9EB1E5E81B5002090B1 /* WKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DBC9EA1E5E81B5002090B1 /* WKViewController.m */; };
+		98DBC9ED1E5EA93F002090B1 /* web.html in Resources */ = {isa = PBXBuildFile; fileRef = 98DBC9EC1E5EA93F002090B1 /* web.html */; };
+		98DBC9EF1E5EB116002090B1 /* web.js in Resources */ = {isa = PBXBuildFile; fileRef = 98DBC9EE1E5EB116002090B1 /* web.js */; };
+		98F981451E6023C3000AE8D8 /* UIAlertController+WebAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F981441E6023C3000AE8D8 /* UIAlertController+WebAlert.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,18 @@
 		98DBC9D01E5E815C002090B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		98DBC9D21E5E815C002090B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		98DBC9D31E5E815C002090B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		98DBC9D51E5E815C002090B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		98DBC9D61E5E815C002090B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		98DBC9D91E5E815C002090B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98DBC9DB1E5E815C002090B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98DBC9DE1E5E815C002090B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98DBC9E01E5E815C002090B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98DBC9E61E5E81A7002090B1 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		98DBC9E71E5E81A7002090B1 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		98DBC9E91E5E81B5002090B1 /* WKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKViewController.h; sourceTree = "<group>"; };
+		98DBC9EA1E5E81B5002090B1 /* WKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKViewController.m; sourceTree = "<group>"; };
+		98DBC9EC1E5EA93F002090B1 /* web.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = web.html; sourceTree = "<group>"; };
+		98DBC9EE1E5EB116002090B1 /* web.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = web.js; sourceTree = "<group>"; };
+		98F981431E6023C3000AE8D8 /* UIAlertController+WebAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+WebAlert.h"; sourceTree = "<group>"; };
+		98F981441E6023C3000AE8D8 /* UIAlertController+WebAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+WebAlert.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +70,19 @@
 			children = (
 				98DBC9D21E5E815C002090B1 /* AppDelegate.h */,
 				98DBC9D31E5E815C002090B1 /* AppDelegate.m */,
-				98DBC9D51E5E815C002090B1 /* ViewController.h */,
-				98DBC9D61E5E815C002090B1 /* ViewController.m */,
 				98DBC9D81E5E815C002090B1 /* Main.storyboard */,
 				98DBC9DB1E5E815C002090B1 /* Assets.xcassets */,
 				98DBC9DD1E5E815C002090B1 /* LaunchScreen.storyboard */,
 				98DBC9E01E5E815C002090B1 /* Info.plist */,
 				98DBC9CF1E5E815C002090B1 /* Supporting Files */,
+				98DBC9E61E5E81A7002090B1 /* WebViewController.h */,
+				98DBC9E71E5E81A7002090B1 /* WebViewController.m */,
+				98DBC9E91E5E81B5002090B1 /* WKViewController.h */,
+				98DBC9EA1E5E81B5002090B1 /* WKViewController.m */,
+				98DBC9EC1E5EA93F002090B1 /* web.html */,
+				98DBC9EE1E5EB116002090B1 /* web.js */,
+				98F981431E6023C3000AE8D8 /* UIAlertController+WebAlert.h */,
+				98F981441E6023C3000AE8D8 /* UIAlertController+WebAlert.m */,
 			);
 			path = "ZMJS-OC";
 			sourceTree = "<group>";
@@ -137,7 +153,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98DBC9EF1E5EB116002090B1 /* web.js in Resources */,
 				98DBC9DF1E5E815C002090B1 /* LaunchScreen.storyboard in Resources */,
+				98DBC9ED1E5EA93F002090B1 /* web.html in Resources */,
 				98DBC9DC1E5E815C002090B1 /* Assets.xcassets in Resources */,
 				98DBC9DA1E5E815C002090B1 /* Main.storyboard in Resources */,
 			);
@@ -150,9 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98DBC9D71E5E815C002090B1 /* ViewController.m in Sources */,
+				98F981451E6023C3000AE8D8 /* UIAlertController+WebAlert.m in Sources */,
+				98DBC9EB1E5E81B5002090B1 /* WKViewController.m in Sources */,
 				98DBC9D41E5E815C002090B1 /* AppDelegate.m in Sources */,
 				98DBC9D11E5E815C002090B1 /* main.m in Sources */,
+				98DBC9E81E5E81A7002090B1 /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ZMJS-OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yonyou.ZMJS-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ZMJS-OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yonyou.ZMJS-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -309,6 +331,7 @@
 				98DBC9E51E5E815C002090B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "WKViewController.h"
 
 @interface AppDelegate ()
 

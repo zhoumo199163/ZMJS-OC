@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WebViewController.h
 //  ZMJS-OC
 //
 //  Created by zm on 2017/2/23.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WebViewController : UIViewController
 
 @end
-

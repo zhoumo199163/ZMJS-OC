@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+            </head>
+    <body>
+        <div style="margin-top: 100px">
+            <h1>WebView</h1>
+            <div>
+                <input type="button" value="html发消息给OC，无参数" onclick="jsIdentify.sendMessageWithNoParam()">
+                    </div>
+ <div>
+            <input type="button" value="html发消息给OC，单参数" onclick="jsIdentify.sendMessageWithOneParam('我来自html')">
+                </div>
+        <div>
+            <input type="button" value="js发消息给OC，多参数" onclick="JSSendMessageWithMoreParam('我来自js','第二个参数')">
+                </div>
+         <h1>WKWebView</h1>
+        <div>
+            <input type="button" value="wk-js发消息给OC，多参数"onclick="WKsendMessageToOCWithMoreParam()">
+                </div>
+        <script src="web.js">
+            </script>
+    </body>
+</html>
